@@ -1,0 +1,6 @@
+LITERATURE REVIEW
+
+Theoretical framework
+	Language processing is incremental and predictive (Altmann & Kamide, 1999; Kutas & Federmeier, 2011; Pickering & Garrod, 2013). Is prosodic information integrated as they unfold, or retrospectively?
+	Prosodic cues to sentence modality in Spanish (Face 2007).
+	English cues. They primarily use word order changes, so maybe pay less attention to prosody. Reduced efficiency in predictive processing in L2.

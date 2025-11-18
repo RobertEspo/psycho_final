@@ -1,0 +1,172 @@
+---
+title: "THE TITLE"
+shorttitle: "THE SHORT TITLE"
+author:
+  - name: Robert Esposito
+    corresponding: true
+    email: rme70@rutgers.edu
+    affiliations:
+      name: "Rutgers University"
+      department: Department of Spanish and Portuguese
+      address: 15 Seminary Pl.
+      city: New Brunswick
+      region: NJ
+      country: USA
+      postal-code: 08901
+author-note:
+  # Disclosures condensed to one paragraph, but you can start a field with two line breaks to break them up: \n\nNew Paragraph
+  disclosures:
+    # Example: This study was registered at X (Identifier Y).
+    study-registration: ~
+    # Acknowledge and cite data/materials to be shared.
+    data-sharing: ~
+    # Example: This article is based on data published in [Reference].
+    # Example: This article is based on the dissertation completed by [citation].  
+    related-report: ~
+    # Example: [Author name] has been a paid consultant for Corporation X, which funded this study.
+    conflict-of-interest: The authors have no conflicts of interest to disclose.
+    # Example: This study was supported by Grant [Grant Number] from [Funding Source].
+    financial-support: ~
+    # Example: The authors are grateful to [Person] for [Reason].
+    gratitude: ~
+    # Example. Because the authors are equal contributors, order of authorship was determined by a fair coin toss.
+    authorship-agreements: ~
+number-sections: false
+abstract: "Accurately parsing intonation is crucial for identifying sentence modality (i.e., declarative versus interrogative utterances) in Spanish. For example, *Mariano habla del tiempo* may variably be a statement ('Mariano talks about the weather') or a neutral information-seeking yes-no question ('Does Mariano talk about the weather?') depending on the intonation. Traditional analysis of Spanish intonation points to solely the final pitch movement as determining sentence modality [@tomas1944manual], but a recent gating experiment has demonstrated that L1 Spanish speakers can identify sentence modality by the first word [@face2007role]. Humans are believed to integrate linguistic information incrementally to make predictions about future content [@van2012prediction], and it follows that Spanish speakers would use early intonational cues to predict sentence modality instead of waiting for the final pitch movement. This study uses eye-tracking to investigate L1 Spanish speakers' and L1 English L2 Spanish learners' sensitivity to early intonational information for identifying sentence modality. Participants completed a two-alternative forced choice task in which they identified if an orally-delivered utterance was a question or not. Results of this study provide insight into understanding if either or both populations are sensitive to non-vital intonational information to predict sentence type."
+keywords: [psycholinguistics, intonation, prediction, eye-tracking]
+floatsintext: true
+bibliography: "./lit/psycho_final.bib"
+format:
+  apaquarto-docx: default
+  apaquarto-html: default
+  apaquarto-pdf:
+    documentmode: man
+---
+
+When listening to speech, humans are exposed to an acoustic signal that is seldom encoded in writing: fundamental frequency (F0). F0, modulated by how fast the vocal folds vibrate, is interpreted in human language as discrete pitch targets (high or low) and organized at the utterance-level to provide syntactic, pragmatic, and paralinguistic information [@ladd2008intonational]. Both native speakers (L1 speakers) and second language learners (L2 speakers) must accurately produce or perceive intonation to prevent communicative breakdowns. For example, distinguishing a sarcastic exclamation and a genuinely complimentary one in English (e.g., "How smart she is!") requires correct parsing of intonation, as the utterance is identical at both the lexical (word) and syntactic (word-order) levels [@zhou2019detecting]. 
+
+Even more quotidian, Spanish declaratives and yes-no questions (absolute interrogatives) are similarly distinguished only at the level of intonation: *Mariano habla del tiempo* "Mariano talks about the weather" may variably be a statement or information-seeking (i.e., neutral) yes-no question depending solely on intonation. Traditionally, only the final F0 movement of the utterance is analyzed as providing the disambiguating cue to determine if such an utterance is a declarative or interrogative. However, as early as [@tomas1944manual], yes-no questions have been identified as having higher initial F0 than declaratives [@quilis1993filologia; @verdugo2005aproximacion], as well as only have pitch accents on the initial and final words [@prieto2004search]. @face2007role determined in an off-line gating experiment that L1 Spanish speakers can distinguish between these two sentence types as early as the first word, which encompasses the first F0 peak. While the final F0 movement strongly influenced participants' judgement, it appears that L1 Spanish speakers can use early intonational cues to determine sentence modality (i.e., whether an utterance is a declarative or interrogative) before the final movement is reached.
+
+Although early intonation cues are available to L1 and L2 Spanish speakers to predict sentence modality, it is unclear if they are processed during on-line sentence comprehension to make predictions about upcoming linguistic content. Theoretical models of brain function suggest that the brain makes continuous predictions about future events based on Bayesian inferences [@bar2007proactive; @lee2003hierarchical; @van2012prediction; @altmann1999incremental; @gruter2021prediction]. It would be expected, then, that L1 Spanish and "proficient" (that is, native-like) L2 Spanish speakers would recruit intonational information as sentence processing unfolds to predict sentence modality.
+
+The present study aims to determine if L1 and L2 Spanish speakers are sensitive to the early intonational cues identified by @face2007role and others during on-line sentence processing using eye-tracking while participants complete a two-alternative forced choice (2AFC) task. Specifically, participants must identify if an aurally presented utterance is a question or not. If participants are sensitive to the early intonational cues, they are expected to have more target fixations very soon after (for L1 speakers) or with a slight delay (L2 speakers).
+
+## Early Cues to Sentence Modality in Spanish
+
+Broadly speaking, intonation can be used to signal speech act marking, information status, belief status, and politeness, among many other communicative functions [@prieto2015intonational; @best2019diversity; @arvaniti2020autosegmental; @cruttenden1997intonation; @cutler1997prosody; @dahan2015prosody; @gussenhoven2004phonology; @ladd2008intonational]. Relevant to this study, intonation may also encode sentence modality: @hirst1998survey found that approximately 70% of a sample of nearly 250 languages used the final pitch movement to signal interrogativity. Spanish is an example of such a language, in which an utterance e.g., 'Mariano habla del tiempo' *Mariano talks about the weather* may variably be a statement or question, differentiated only by intonation. Importantly, @hirst1998survey categorized languages using only the final F0 movement, and this has been the traditional analysis for Spanish as well [@tomas1974manual; @hualde2008intonation]. 
+
+Although the final F0 movement is seemingly the most salient in Spanish for determining sentence modality, it serving as the only cue has been unequivocally rejected by @face2005f0['s] off-line gating experiment. He found that L1 Spanish speakers can accurately determine sentence modality by the scaling (i.e., height) of the first F0 peak and the presence or absence of a medial pitch accent. In a follow-up off-line gating experiment [@face2007role], he found that these early cues hold dramatically less weight than the final F0 movement, which seems to "override" the interpretation. Although speakers are clearly able to recruit the early intonational cues to predict sentence type off-line, it remains unclear if they recruit the same information during on-line sentence processing.
+
+## Using Intonation to Predict
+
+It seems unlikely that Spanish speakers should wait until the very end of an utterance to determine sentence modality. Humans constantly make predictions [@bar2007proactive; @lee2003hierarchical], and it follows that we also anticipate linguistic information [@van2012prediction]. Such a hypothesis has been supported across linguistic domains [e.g., @altmann1999incremental]. Prosody and intonation have traditionally received little attention [@cutler1997prosody], but the extant research has demonstrated that listeners integrate intonational information as sentence processing unfolds to make predictions [@grodner2010some; @kamide2003time; @crocker2010computational; @levy2008expectation]. Based on this evidence, it would be expected that L1 Spanish speakers do not wait until the final F0 movement to determine sentence modality, but instead integrate early intonational information to make predictions.
+
+However, not all intonational cues are weighted equally for a listener. @roettger2019evidential attempts to address this issue by introducing a computational model that proposes that the predictive value of an intonational cue is dependent on the prior reliability of the cue-to-function mapping and the likelihood of the mapping given the listener's most recent experiences. In a later series of mouse-tracking studies, @roettger2021positional found that L1 German speakers did not use prenuclear pitch accents for anticipatory behavior when determining ambiguous referents. On the other hand, some, but not all, L1 American English participants recruited the early intonational cues to anticipatorily disambiguate the referent. This research puts doubt on the claim that L1 Spanish speakers recruit early intonational cues, as opposed to weighting for the final F0 movement.
+
+Although the early cues to sentence modality in Spanish may not hold as much weight as the final cue [@face2007role], it could be the case that the cues are interpreted additively: the final cue, the terminal F0 movement, could simply act as *confirmatory*, rather than the one that leads the listener to perceive sentence type. If that is the case, we would expect accurate anticipatory behavior in response to the early cues.
+
+## Prediction in a Second Language
+
+If it is accurate that early intonational cues provide less meaningful predictive power than later ones [@roettger2021positional], do late sequential second language (L2) Spanish learners expend cognitive resources to make use of early intonational cues to predict sentence modality in Spanish? Contrary to early claims [@gruter2014role], L2 speakers have been found to predict, leading to a growing flourish of research [see @gruter2021prediction], so it is not impossible that they make predictions based on this information. In fact, even L2 learners with very little experience in the L2 are capable of predicting [@koehne2015interplay]. 
+
+With specific regards to intonational cues, @foltz2021using in an eye-tracking study found that L1 German L2 English intermediate-to-advanced learners [B2 or above using CEFR levels; @coucilofeurope2001cefr] were able to predict a referent based on a contrastive pitch accent in their L1, but showed delayed processing for the same cue in their L2. This is in contrast to @klassen2015second, who found that Spanish-English bilinguals *did* engage in predictive processing for a similar cue-to-function mapping. Importantly, they contribute these differing results to timing: where @klassen2015second separated two phrases of an instruction with 700 ms of silence, the target noun in @foltz2021using immediately followed the cue-bearing adjective. Thus, it may be expected that if given enough time (i.e., a longer sentence length), L2 Spanish speakers may integrate early intonational cues.
+
+Some researchers have claimed that the underlying factors impacting prediction are practically equivalent in L1 and L2 processing [@kaan2014predictive], and that L2 predictive delays are a result of resource deficits. As such, the current research focuses on individual differences in L2 learners, specifically working memory [@huettig2016individual; @ito2018investigating; @lozano2023interpreting].
+
+## Research Questions
+
+The current research investigates predictive capabilities of L1 Spain Spanish speakers and L1 English L2 Spain Spanish learners for sentence modality. I have the following research questions regarding L1 Spain Spanish speakers to determine if early intonational cues are integrated during real-time processing to predict sentence modality:
+
+1. Is the first F0 peak height used to predict sentence modality?
+
+2. Is the presence or absence of a medial pitch accent used to predict sentence modality?
+
+Based on @face2007role, it is expected that both cues will result in more target fixations.
+
+The following research questions are aimed to investigate if L1 English L2 Spain Spanish speakers recruit the same early intonational cues to predict sentence. All questions are to be interpreted as applying to both the cues described in the first two research questions.
+
+3. Does working memory impact predictive capabilities?
+
+4. Does prediction capabilities depend on amount of time (operationalized here as sentence length) a learner has to process a given cue?
+
+Based on deficit models [@kaan2014predictive], it is expected that working memory should play a strong role in modulating L2 learners' predictive capabilities. As for sentence length, L2 learners typically take longer to process spoken language than L1 speakers, so it is expected that if given more time to process the language [@hojen2006early], they will be able to predict with a delay.
+
+# Method
+
+## Participants
+
+75 participants in total were recruited to participate in the present study. 25 participants (age: 18-35) were self-reported as being adult L1 Spanish speakers born, raised, and currently living in the Madrid, Spain area. These participants self-reported growing up as monolingual Spanish speakers.
+
+The remaining 50 participants (age: 18-25) were L1 English L2 Spanish learners currently taking classes in Spanish at a university. Participants self-reported as born, raised, and currently living in the United States. They self-reported as growing up monolingual English speakers, having begun the endeavor of acquiring Spanish at a mean age of 16 years old (SD = 4).
+
+L2 Spanish participants completed a measure of Spanish proficiency [the LexTALE-ESP; @izura2014lextale] and a self-report language history background. The LexTALE-ESP is a measure of vocabulary size in Spanish that has been seen to correlate with other measures of proficiency [@izura2014lextale]. Participants were seen to have a range of Spanish proficiencies, from beginner to high-intermediate.
+
+The language history background collected information about participants' age of acquisition, cumulative language use, and current language use. Participants were seen to have similar current language use, reflecting the university-context where they primarily use Spanish inside the Spanish classroom, but not outside.
+
+## Experimental Task
+
+Using the visual-world eye-tracking paradigm, participants were tested to determine if they were able to accurately determine whether a sentence was a declarative or interrogative before the final syllable.
+
+### Critical Trials
+
+There were 120 critical trials. 60 were declarative utterances and 60 were interrogative utterances. 20 utterances of each modality had 0 additional prepositional phrases, 20 had 1 additional prepositional phrase, and 20 had 2 additional prepositional phrases.
+
+### Auditory Stimuli
+
+All utterances consisted of an overt subject, a verb, an object, and 0 to 2 prepositional phrases adding an additional 3 words for each phrase (preposition + determiner + noun). Each prepositional phrase was made up of a total of 6 syllables. For example, 'Mariano habla del tiempo' is the base sentence condition. Prepositional phrases are then added: 'Mariano habla del tiempo [1] en la biblioteca [2] después de la cena'. The final word of the utterance always had penultimate stress so that the final pitch movement was not truncated with the nuclear pitch accent.
+
+The utterances were all produced by a 25-year-old female L1 Spanish monolingual speaker from Madrid. In total, she produced 60 pairs of identical utterances for a total of 120 utterances: half of the utterances were produced as declaratives, and the other half were produced as interrogatives. Acoustic analysis revealed that the first pitch peak of declarative utterances were always lower than the first pitch peak of the interrogative utterances. The declarative utterances were always produced with a medial pitch accent (e.g., on 'habla' in 'Mariano habla del tiempo'), whereas this pitch accent was absent in interrogative utterances. As expected, declarative utterances ended with a low boundary tone, whereas interrogative utterances ended with a high boundary tone.
+
+Importantly, only L2 Spanish learners were exposed to the sentences with additional prepositional phrases. L1 Spanish speakers were exposed to only the base sentences with 0 prepositional phrases. This was done under the assumption that L1 Spanish speakers will find the task monotonous. As such, they were exposed to only 40 target utterances in total.
+
+### Visual Stimuli
+
+The visual display accompanying the auditory stimuli had two areas of interest depicting identical images of two people. One of the people had a speech bubble with either '.' or '?'.
+
+## Procedure
+
+Prior to the eye-tracking task, all participants completed the LexTALE-ESP and the language background questionnaire.
+
+Once completed, the participant's dominant eye was determined by applying the Miles test [@miles1929ocular]. Only eye movements from the dominant eye were registered. Participants were seated in front of an Eyelink Pro 1000 eye-tracking system (approximately 80 cm). Participants word headphones to hear audio stimuli. Participants were told that they would hear a number of sentences and must determine if it was a 'statement', which corresponded to the image with a '.', or a 'yes-no question', which corresponded to the image with a '?'. After listening to the entire utterance, participants were asked to press either the left or right shift key that corresponded with the image on the left or right side of the screen that matched the utterance's sentence type. 
+
+At trial start, participants were exposed to a fixation cross from 200ms, after which the two images appeared for 200ms. At 400ms into the trial, the audio stimuli began to play. Once the audio finished, participants could respond using the shift keys. Once they responded, a grey box appeared on the screen in one of the four corners. After they looked at the box for 500ms, the next trial began.
+
+Participants completed 4 practice trials before the experiment to familiarize themselves with the images and task. L1 Spanish participants were then exposed to a total of 60 (20 critical and 40 filler) trials; L2 Spanish participants were exposed to a total of 90 (30 critical and 60 filler) trials. Critical and filler trials appear in randomized order. Test conditions for the L2 Spanish learners were counterbalanced across participants in a Latin square design and they were randomly assigned to 1 of 3 versions of the experiment.
+
+# Results
+
+# Discussion
+
+## Limitations and Future Directions
+
+Pedagogy (should we teach early cues?). Effects of study abroad (semester-long vs two weeks? homestay vs student residence?). at-home immersion programs (e.g., middlebury).
+
+## Conclusion
+
+# RANDOM SNIPPETS, DELETE ME LATER 
+
+An open question is *which* information perceivers recruit to make predictions about *what* content. 
+
+As such, although it is clear that L1 Spanish speakers *can* recruit early intonational cues to accurately predict sentence modality [@face2007role], it is yet to be seen if they *do* recruit the early cues during real-time sentence processing.
+
+For example, @esteve2020empathy in an eye-tracking experiment found that L1 French speakers can recruit intonational information to accurately disambiguate cognates. @ito2008anticipatory investigated L1 English speakers' perception of the felicitous and infelicitous use of the L+H* pitch accent, associated with contrastive focus, in one of their three eye-tracking experiments reported. In experiment 2, they found that listeners had earlier target fixations when presented with the contrastive pitch accent and demonstrated a garden path effect when the contrastive pitch accent was used infelicitously. These studies indicate that intonational information *can* recruited during real-time sentence processing to predict upcoming information.
+
+In an off-line gating experiment, @face2007role determined that L1 Spanish speakers are capable of recruiting early intonational 
+
+but it remains unclear if speakers do recruit the relevant early intonational information during real-time sentence processing.
+
+@marasco2020you Gating experiment a la Face 2007. L2 = native speaker for reaction times at gate 1. Three gates. The first right after first pitch peak. Statistics only completed for first date; third gate's RTs are reported, but statistics are not completed on it.
+
+There are few current L2 learning models that provide a framework for learning intonation. One available model is the L2 Intonation Learning theory [LILt; @mennen2015beyond], which predicts L2 learner outcomes by comparing the intonational systems of the two languages on four dimensions: the inventory and distribution of categorical phonological elements; the phonetic implenetation of those elements; the functionality of the elements; and the frequency of use of each element. Unfortunately, there is only one cue that would traditionally be considered categorical in Spanish for sentence modality, that being the boundary tone [@prieto2010transcription]; it is not clear what predictions LILt might make for the earlier intonational cues in Spanish, as they are not considered categorical in nature. Furthermore, the intonational cues to sentence modality do not have clear correlates between English and Spanish, especially because English declaratives and canonical yes-no questions are primarily distinguished by syntactic and lexical differences. While the first pitch peak in Spanish is different between declaratives and yes-no interrogatives, pitch peak height in prenuclear accents has been found to be correlated with emphasis in British [@ladd1997perception] and American [@chen2003reaction] English, not sentence type. Furthermore, the boundary tone in English does not necessarily represent a reliable cue to yes-no interrogatives [@geluykens1988myth].
+
+# References
+
+<!-- References will auto-populate in the refs div below -->
+
+::: {#refs}
+:::
+
+# This Section Is an Appendix {#apx-a}
+
+
+# Another Appendix {#apx-b}
