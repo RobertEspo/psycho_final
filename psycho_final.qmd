@@ -1,6 +1,6 @@
 ---
-title: "THE TITLE"
-shorttitle: "THE SHORT TITLE"
+title: "Using Early Intonational Cues to Disambiguate Sentence Modality in L1 and L2 Spanish: An Eye-tracking Study"
+shorttitle: "Early Intonational Cues to Sentence Modality"
 author:
   - name: Robert Esposito
     corresponding: true
@@ -44,6 +44,7 @@ format:
 ---
 
 ```{r}
+#| include: false
 # load libs
 library(here)
 ```
@@ -112,10 +113,15 @@ The utterances were all produced by a 25-year-old female L1 Spanish monolingual 
 
 Importantly, only L2 Spanish learners were exposed to the sentences with additional prepositional phrases. L1 Spanish speakers were exposed to only the preamble with 0 prepositional phrases. This was done under the assumption that L1 Spanish speakers will find the task monotonous. As such, they were exposed to only 40 target utterances in total.
 
-The visual display accompanying the auditory stimuli had two areas of interest depicting identical images of two people. One of the people had a speech bubble with either '.' or '?'. An example trial is depicted in @r.
+The visual display accompanying the auditory stimuli had two areas of interest depicting identical images of two people. One of the people had a speech bubble with either '.' or '?'. An example trial is depicted in @fig-example-trial.
 
 ```{r}
-![](here("figs", "example_trial.bmp"))
+#| label: fig-example-trial
+#| fig-cap: Example of one trial.
+
+knitr::include_graphics(
+  here("figs", "example_trial.bmp")
+  )
 ```
 
 ## Procedure
@@ -126,40 +132,9 @@ At trial start, participants were exposed to a fixation cross for 500ms, after w
 
 Participants completed 4 practice trials before the experiment to familiarize themselves with the images and task. L1 Spanish participants were then exposed to a total of 60 (20 experimental and 40 filler) trials; L2 Spanish participants were exposed to a total of 90 (30 experimental and 60 filler) trials. Experimental and filler trials appear in randomized order. Test conditions for the L2 Spanish learners were counterbalanced across participants in a Latin square design and they were randomly assigned to 1 of 3 versions of the experiment. The task took approximately 15 minutes to complete.
 
-# Results
-
-# Discussion
-
-## Limitations and Future Directions
-
-Pedagogy (should we teach early cues?). Effects of study abroad (semester-long vs two weeks? homestay vs student residence?). at-home immersion programs (e.g., middlebury).
-
-## Conclusion
-
-# RANDOM SNIPPETS, DELETE ME LATER 
-
-An open question is *which* information perceivers recruit to make predictions about *what* content. 
-
-As such, although it is clear that L1 Spanish speakers *can* recruit early intonational cues to accurately predict sentence modality [@face2007role], it is yet to be seen if they *do* recruit the early cues during real-time sentence processing.
-
-For example, @esteve2020empathy in an eye-tracking experiment found that L1 French speakers can recruit intonational information to accurately disambiguate cognates. @ito2008anticipatory investigated L1 English speakers' perception of the felicitous and infelicitous use of the L+H* pitch accent, associated with contrastive focus, in one of their three eye-tracking experiments reported. In experiment 2, they found that listeners had earlier target fixations when presented with the contrastive pitch accent and demonstrated a garden path effect when the contrastive pitch accent was used infelicitously. These studies indicate that intonational information *can* recruited during real-time sentence processing to predict upcoming information.
-
-In an off-line gating experiment, @face2007role determined that L1 Spanish speakers are capable of recruiting early intonational 
-
-but it remains unclear if speakers do recruit the relevant early intonational information during real-time sentence processing.
-
-@marasco2020you Gating experiment a la Face 2007. L2 = native speaker for reaction times at gate 1. Three gates. The first right after first pitch peak. Statistics only completed for first date; third gate's RTs are reported, but statistics are not completed on it.
-
-There are few current L2 learning models that provide a framework for learning intonation. One available model is the L2 Intonation Learning theory [LILt; @mennen2015beyond], which predicts L2 learner outcomes by comparing the intonational systems of the two languages on four dimensions: the inventory and distribution of categorical phonological elements; the phonetic implenetation of those elements; the functionality of the elements; and the frequency of use of each element. Unfortunately, there is only one cue that would traditionally be considered categorical in Spanish for sentence modality, that being the boundary tone [@prieto2010transcription]; it is not clear what predictions LILt might make for the earlier intonational cues in Spanish, as they are not considered categorical in nature. Furthermore, the intonational cues to sentence modality do not have clear correlates between English and Spanish, especially because English declaratives and canonical yes-no questions are primarily distinguished by syntactic and lexical differences. While the first pitch peak in Spanish is different between declaratives and yes-no interrogatives, pitch peak height in prenuclear accents has been found to be correlated with emphasis in British [@ladd1997perception] and American [@chen2003reaction] English, not sentence type. Furthermore, the boundary tone in English does not necessarily represent a reliable cue to yes-no interrogatives [@geluykens1988myth].
-
 # References
 
 <!-- References will auto-populate in the refs div below -->
 
 ::: {#refs}
 :::
-
-# This Section Is an Appendix {#apx-a}
-
-
-# Another Appendix {#apx-b}
