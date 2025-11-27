@@ -72,6 +72,12 @@ making prediction in the L2
 :::
 :::
 
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+methodology
+:::
+:::
+
 # Intonation {.transition}
 
 ## What is intonation?
@@ -281,8 +287,150 @@ Face [-@face2005f0; -@face2007role]
 
 ## Prediction in the L1
 
+::: {.fragment}
+Humans constantly [predict]{.emph} non-linguistic [@bar2007proactive; @lee2003hierarchical] and [linguistic]{.emph} information [@van2012prediction; @altmann1999incremental]
+:::
+
+::: {.fragment}
+Extant research suggests that intonational information is [processed in real-time]{.emph} [@grodner2010some; @kamide2003time; @crocker2010computational; @levy2008expectation]
+:::
+
+## Prediction in the L1 {.smaller}
+
+::: {.fragment}
+Homophones can be distinguished based on a "contradictory" contour [@esteve2020empathy]
+:::
+
+::: {.fragment}
+![](assets/esteve2020empathy_contours.bmp)
+:::
+
+## But not all cues are weighted equally
+
+::: {.fragment}
+L1 German and L1 English speakers completed a series of on-line [mouse-tracking]{.emph} studies
+:::
+
+::: {.fragment}
+Do speakers use [early pitch accents]{.emph} to predict if a referent downstream is given or contrastive?
+:::
+
+::: {.fragment}
+German speakers ❌
+
+English speakers ✔️
+:::
+
+::: footer
+@roettger2021positional
+:::
+
+## But not all cues are weighted equally
+
+::: {.incremental}
+- perceivers [don't use]{.emph} prenuclear pitch accents to infer speaker intentions?
+- depends on [type]{.emph} of prenuclear pitch accent? e.g., unmarked rise vs salient rise-fall
+- [delayed]{.emph} semantic integration? i.e., prosodic prominence can only be judged relative to its environment
+:::
+
+::: footer
+@roettger2021positional
+:::
+
+## In sum...
+
+It's [not a given]{.emph} that L1 Spanish speakers will integrate early intonational cues to [predict]{.emph} sentence type!
 
 
+## Prediction in the L2
+
+
+::: {.fragment}
+L1 German L2 English [CEFR B2 or above; @councilofeurope2001cefr] learners [predict]{.emph} referent based on contrastive pitch accent [in L1]{.emph}, but [not in L2]{.emph} for the same sound-to-meaning prediction [@foltz2021using]
+:::
+
+::: {.fragment}
+In contrast, @klassen2015second found that L1 Spanish L2 English learners [predict]{.emph} referent based on contrastive pitch accent [in L2]{.emph}
+:::
+
+::: {.fragment}
+The cues matched in the L1 and L2 in both studies... so why the difference?
+:::
+
+::: {.fragment}
+The Spanish-English bilinguals had [more time]{.emph} to predict in the task?
+:::
+
+## Comparing English and Spanish sentence modality cues
+
++-------------------------------+---------------------------+------------------------------+
+| Cue                           | Spanish                   | English                      |
++===============================+===========================+==============================+
+| First peak height             | higher = interrogatives   | associated with              |
+|                               | lower = declaratives      | emphasis [@chen2003reaction] |
+|                               |                           |                              |
++-------------------------------+---------------------------+------------------------------+
+| Presence/absence of medial    | absence = interrogative   | no correlates                |
+| pitch accent                  | presence = declarative    |                              |
++-------------------------------+---------------------------+------------------------------+
+
+: {tbl-colwidths="[50,75,75]"}
+
+## So what do we expect?
+
+L2 speakers [can]{.emph} predict when cues match, but there's a [delay]{.emph}
+
+Here, no cues match
+
+# Research questions {.transition}
+
+:::: {.r-fit-text}
+
+::: {.incremental}
+
+1. Is the first F0 peak height used to predict sentence modality?
+
+2. Is the presence or absence of a medial pitch accent used to predict sentence modality?
+
+3. Do L1 English L2 Spanish speakers recruit either first F0 peak height or the presence/absence of a medial pitch accent to predict sentence modality?
+
+4. Do prediction capabilities depend on amount of time (operationalized here as sentence length) a learner has to process a given cue?
+
+:::
+
+::::
+
+# Methodology {.transition}
+
+## Participants 
+
+::: {.incremental}
+
+- 25 L1 Madrid Spanish speakers
+- 100 L1 UK English L2 Spanish late learners (B2 or higher)
+  - primarily exposed to Spain Spanish
+  - range of proficiencies from B1 to B2
+  - range of exposures
+
+:::
+
+## Materials
+
+::: {.incremental}
+
+- LexTALE-ESP [@izura2014lextale]
+- language background questionnaire
+- eye-tracking task
+
+:::
+
+## Eye-tracking task
+
+![](figs/example_trial.bmp)
+
+## Suggestions?
+
+Would be better to have semantics-based stimuli instead of directly asking if utterance is statement/question, but not sure how to go about that
 
 ## Thanks! {.final visibility="uncounted"}
 
