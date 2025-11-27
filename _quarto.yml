@@ -1,0 +1,9 @@
+project:
+  title: "Using Early Intonational Cues to Disambiguate Sentence Modality in L1 and L2 Spanish: An Eye-tracking Study"
+  render:
+    - "*.qmd"
+    - "!./docs/lit/"
+    - "README.qmd"
+
+bibliography: ./lit/psycho_final.bib
+csl: ./lit/apa.csl
